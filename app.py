@@ -3,7 +3,7 @@ from datetime import datetime
 import random
 import hashlib
 
-app = Flask(__name__, template_folder="views")
+app = Flask(__name__, template_folder="templates")
 
 # list to store blockchain
 blockchain = []
